@@ -1,0 +1,19 @@
+[
+  {"name": "Bread",         "kind": "consumable", "char": "b", "color": [200, 170, 100], "texture": "items/consumables/bread.jpg",       "effect_type": "food",  "hunger_restore": 25.0, "value": 2,  "weight": 0.3, "rarity": "common",   "min_depth": 1},
+  {"name": "Water Flask",   "kind": "consumable", "char": "~", "color": [80, 140, 220],  "texture": "items/consumables/water_flask.jpg", "effect_type": "drink", "thirst_restore": 30.0, "value": 1,  "weight": 0.5, "rarity": "common",   "min_depth": 1},
+  {"name": "Meat",          "kind": "consumable", "char": "m", "color": [180, 80, 80],   "texture": "items/consumables/meat.jpg",        "effect_type": "food",  "hunger_restore": 35.0, "hp_restore": 5, "value": 4, "weight": 0.4, "rarity": "common", "min_depth": 1},
+  {"name": "Lembas",        "kind": "consumable", "char": "L", "color": [240, 230, 180], "texture": "items/consumables/lembas.jpg",      "effect_type": "food",  "hunger_restore": 60.0, "willpower_restore": 10.0, "value": 8, "weight": 0.2, "rarity": "uncommon", "min_depth": 1},
+  {"name": "Ale",           "kind": "consumable", "char": "a", "color": [180, 140, 40],  "texture": "items/consumables/ale.jpg",         "effect_type": "drink", "thirst_restore": 25.0, "stress_reduce": 5.0, "value": 3, "weight": 0.5, "rarity": "common", "min_depth": 1},
+  {"name": "Miruvor",       "kind": "consumable", "char": "M", "color": [220, 200, 255], "texture": "items/consumables/miruvor.jpg",     "effect_type": "drink", "thirst_restore": 50.0, "willpower_restore": 20.0, "mana_restore": 10, "value": 15, "weight": 0.4, "rarity": "uncommon", "min_depth": 2},
+  {"name": "Healing Herb",  "kind": "consumable", "char": "h", "color": [80, 200, 80],   "texture": "",                                  "effect_type": "heal",  "hp_restore": 20, "value": 6, "weight": 0.1, "rarity": "common", "min_depth": 1},
+  {"name": "Ent Draught",   "kind": "consumable", "char": "E", "color": [60, 180, 60],   "texture": "items/consumables/ent_draught.jpg", "effect_type": "drink", "thirst_restore": 80.0, "hunger_restore": 40.0, "hp_restore": 20, "value": 20, "weight": 0.5, "rarity": "rare", "min_depth": 3},
+
+  {"name": "Potion of Healing",         "kind": "consumable", "char": "!", "color": [220, 60, 80],   "texture": "items/consumables/miruvor.jpg",     "effect_type": "heal", "hp_restore": 40, "value": 30, "weight": 0.3, "rarity": "uncommon", "min_depth": 1},
+  {"name": "Potion of Greater Healing", "kind": "consumable", "char": "!", "color": [240, 30, 60],   "texture": "items/consumables/miruvor.jpg",     "effect_type": "heal", "hp_restore": 90, "value": 70, "weight": 0.3, "rarity": "rare", "min_depth": 3},
+  {"name": "Potion of Mana",            "kind": "consumable", "char": "!", "color": [80, 120, 240],  "texture": "items/consumables/miruvor.jpg",     "effect_type": "mana", "mana_restore": 40, "value": 35, "weight": 0.3, "rarity": "uncommon", "min_depth": 2},
+  {"name": "Antidote",                  "kind": "consumable", "char": "!", "color": [120, 220, 120], "texture": "items/consumables/water_flask.jpg", "effect_type": "cure", "value": 25, "weight": 0.2, "rarity": "uncommon", "min_depth": 2},
+  {"name": "Elixir of Vigor",           "kind": "consumable", "char": "!", "color": [220, 160, 60],  "texture": "items/consumables/ent_draught.jpg", "effect_type": "heal", "hp_restore": 25, "mana_restore": 25, "value": 45, "weight": 0.3, "rarity": "rare", "min_depth": 4},
+
+  {"name": "Arrows",        "kind": "ammo", "char": "|", "color": [180, 160, 100], "texture": "", "ammo_type": "arrow", "qty_min": 5, "qty_max": 15, "value": 5, "weight": 0.6, "rarity": "common", "min_depth": 1},
+  {"name": "Bolts",         "kind": "ammo", "char": "|", "color": [140, 130, 100], "texture": "", "ammo_type": "bolt",  "qty_min": 5, "qty_max": 15, "value": 8, "weight": 0.8, "rarity": "uncommon", "min_depth": 1}
+]

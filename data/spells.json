@@ -1,0 +1,7 @@
+[
+  {"name": "Magic Missile", "mana_cost": 3,  "range": 8, "effect_type": "damage", "potency": 12, "damage_type": "lightning", "description": "An unerring bolt of force."},
+  {"name": "Firebolt",      "mana_cost": 6,  "range": 6, "effect_type": "damage", "potency": 20, "damage_type": "fire",      "description": "A searing bolt of flame."},
+  {"name": "Heal",          "mana_cost": 8,  "range": 0, "effect_type": "heal",   "potency": 25, "damage_type": "none",      "description": "Mends your wounds."},
+  {"name": "Shield",        "mana_cost": 10, "range": 0, "effect_type": "buff",   "potency": 4,  "damage_type": "none",      "description": "A ward that raises armor for a time."},
+  {"name": "Frost Nova",    "mana_cost": 12, "range": 3, "effect_type": "damage", "potency": 18, "damage_type": "cold",      "description": "An icy blast striking all nearby foes."}
+]
